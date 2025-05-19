@@ -1,0 +1,6 @@
+INFO     root:main.py:48 Opened StackOverflow login page
+INFO     root:main.py:58 Entered username
+INFO     root:main.py:61 Entered password
+INFO     root:main.py:67 Clicked Login button
+INFO     root:main.py:88 Selected 'Opel' from dropdown
+INFO     root:main.py:94 Hovered over paragraph
