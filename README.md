@@ -73,8 +73,8 @@ pip install selenium pytest pytest-bdd
 Run the tests:
 
 ```bash
-pytest test_script.py
-pytest test_bdd_login.py
+pytest main.py
+pytest stackOverflowTestScript.py
 ```
 
 ---
