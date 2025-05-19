@@ -43,13 +43,13 @@ def open_login_page(driver):
     assert "Log In" in driver.title
 
 
-@when("I enter the username 'email@gmail.com' and password 'password'")
+@when("I enter the username 'zhomart.begaly@gmail.com' and password 'Zhomart981005'")
 def enter_credentials(driver):
     WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.ID, "email"))
-    ).send_keys("email@gmail.com")
+    ).send_keys("zhomart.begaly@gmail.com")
     logging.info("Entered username")
-    driver.find_element(By.ID, "password").send_keys("password")
+    driver.find_element(By.ID, "password").send_keys("Zhomart981005")
     logging.info("Entered password")
 
 

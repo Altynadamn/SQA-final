@@ -54,10 +54,10 @@ class TestStackOverflowLogin:
             # ✅ Explicit wait
             WebDriverWait(self.driver, 10).until(
                 EC.visibility_of_element_located((By.ID, "email"))
-            ).send_keys("email@gmail.com")
+            ).send_keys("zhomart.begaly@gmail.com")
             logging.info("Entered username")
 
-            self.driver.find_element(By.ID, "password").send_keys("password")
+            self.driver.find_element(By.ID, "password").send_keys("Zhomart981005")
             logging.info("Entered password")
 
             # ✅ Fluent-style wait using WebDriverWait
